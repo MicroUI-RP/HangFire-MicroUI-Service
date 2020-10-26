@@ -5,4 +5,12 @@
     <RootNamespace>HangFire_MicroUI_Service.Web</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HangFire-MicroUI-Service.DomainService\HangFire-MicroUI-Service.DomainService.csproj" />
+  </ItemGroup>
+
 </Project>

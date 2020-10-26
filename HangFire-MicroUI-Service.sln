@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire-MicroUI-Service.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire-MicroUI-Service.DataAccess", "HangFire-MicroUI-Service.DataAccess\HangFire-MicroUI-Service.DataAccess.csproj", "{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire-MicroUI-Service.DomainService", "HangFire-MicroUI-Service.DomainService\HangFire-MicroUI-Service.DomainService.csproj", "{D729DE8A-DD4E-4982-AC53-77A9C05D654C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire-MicroUI-Service.Model", "HangFire-MicroUI-Service.Models\HangFire-MicroUI-Service.Model.csproj", "{388D5BAE-1889-4749-99CF-5DCDD7B7FA18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D729DE8A-DD4E-4982-AC53-77A9C05D654C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D729DE8A-DD4E-4982-AC53-77A9C05D654C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D729DE8A-DD4E-4982-AC53-77A9C05D654C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D729DE8A-DD4E-4982-AC53-77A9C05D654C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388D5BAE-1889-4749-99CF-5DCDD7B7FA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388D5BAE-1889-4749-99CF-5DCDD7B7FA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388D5BAE-1889-4749-99CF-5DCDD7B7FA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388D5BAE-1889-4749-99CF-5DCDD7B7FA18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

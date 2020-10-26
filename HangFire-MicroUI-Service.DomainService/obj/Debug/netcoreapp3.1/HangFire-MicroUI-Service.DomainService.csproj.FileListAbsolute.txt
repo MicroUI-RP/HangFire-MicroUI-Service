@@ -1,0 +1,14 @@
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.deps.json
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.pdb
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DataAccess.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.Model.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DataAccess.pdb
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\bin\Debug\netcoreapp3.1\HangFire-MicroUI-Service.Model.pdb
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.csprojAssemblyReference.cache
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.AssemblyInfoInputs.cache
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.AssemblyInfo.cs
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.csproj.CoreCompileInputs.cache
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.csproj.CopyComplete
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.DomainService\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.DomainService.pdb

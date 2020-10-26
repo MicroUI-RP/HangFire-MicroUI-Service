@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>HangFire_MicroUI_Service.DomainService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HangFire-MicroUI-Service.DataAccess\HangFire-MicroUI-Service.DataAccess.csproj" />
+    <ProjectReference Include="..\HangFire-MicroUI-Service.Models\HangFire-MicroUI-Service.Model.csproj" />
+  </ItemGroup>
+
+</Project>

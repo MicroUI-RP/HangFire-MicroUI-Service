@@ -4,14 +4,14 @@
     "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj": {
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DataAccess\\HangFire-MicroUI-Service.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj",
-        "projectName": "HangFire-MicroUI-Service.Web",
-        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DataAccess\\HangFire-MicroUI-Service.DataAccess.csproj",
+        "projectName": "HangFire-MicroUI-Service.DataAccess",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DataAccess\\HangFire-MicroUI-Service.DataAccess.csproj",
         "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\obj\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,212 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DomainService\\HangFire-MicroUI-Service.DomainService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DomainService\\HangFire-MicroUI-Service.DomainService.csproj",
+        "projectName": "HangFire-MicroUI-Service.DomainService",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DomainService\\HangFire-MicroUI-Service.DomainService.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DomainService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DataAccess\\HangFire-MicroUI-Service.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DataAccess\\HangFire-MicroUI-Service.DataAccess.csproj"
+              },
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Models\\HangFire-MicroUI-Service.Model.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Models\\HangFire-MicroUI-Service.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Models\\HangFire-MicroUI-Service.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Models\\HangFire-MicroUI-Service.Model.csproj",
+        "projectName": "HangFire-MicroUI-Service.Model",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Models\\HangFire-MicroUI-Service.Model.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj",
+        "projectName": "HangFire-MicroUI-Service.Web",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DomainService\\HangFire-MicroUI-Service.DomainService.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.DomainService\\HangFire-MicroUI-Service.DomainService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
