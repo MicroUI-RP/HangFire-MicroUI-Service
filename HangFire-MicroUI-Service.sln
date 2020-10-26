@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire-MicroUI-Service.Web", "HangFire-MicroUI-Service.Web\HangFire-MicroUI-Service.Web.csproj", "{5C3DBEAF-C170-48C0-970A-53AA97804C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire-MicroUI-Service.DataAccess", "HangFire-MicroUI-Service.DataAccess\HangFire-MicroUI-Service.DataAccess.csproj", "{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C3DBEAF-C170-48C0-970A-53AA97804C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3DBEAF-C170-48C0-970A-53AA97804C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3DBEAF-C170-48C0-970A-53AA97804C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3DBEAF-C170-48C0-970A-53AA97804C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EA19B4-1A7D-4DFD-A2DA-E1756ECABBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3879D771-6DC6-4AD0-9C12-25AD7D14F278}
+	EndGlobalSection
+EndGlobal
