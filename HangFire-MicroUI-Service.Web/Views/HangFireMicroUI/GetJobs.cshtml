@@ -12,7 +12,7 @@
         debugger;
         $.ajax({
             url: 'https://localhost:44352/HangFireMicroUI/UpdateJobDetails',
-            type: 'GET',
+            type: 'POST',
             dataType: 'json',
             ContentType: "application/json",
             data: { 'hash': hash, '__RequestVerificationToken': token },

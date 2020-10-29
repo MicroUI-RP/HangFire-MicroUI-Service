@@ -34,6 +34,7 @@
             return PartialView(jobListViewModel);
         }
 
+        [HttpPost]
         [EnableCors("_myAllowSpecificOrigins")]
         public JsonResult UpdateJobDetails(Hash hash)
         {
