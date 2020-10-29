@@ -11,7 +11,9 @@
     using HangFire_MicroUI_Service.DomainService.HashService;
     using HangFire_MicroUI_Service.Web.ViewModels;
     using HangFire_MicroUI_Service.Model.Models;
+    using Microsoft.AspNetCore.Cors;
 
+    [EnableCors("_myAllowSpecificOrigins")]
     public class HangFireMicroUIController : Controller
     {
         private readonly IHashService hashService;
@@ -21,6 +23,7 @@
             this.hashService = hashService;
         }
 
+        [EnableCors("_myAllowSpecificOrigins")]
         public IActionResult GetJobs()
         {
             JobListViewModel jobListViewModel = new JobListViewModel
@@ -31,9 +34,15 @@
             return PartialView(jobListViewModel);
         }
 
-        [HttpPost]
-        public JsonResult UpdateJobDetails([FromBody]Hash hash)
+        [EnableCors("_myAllowSpecificOrigins")]
+        public JsonResult UpdateJobDetails(Hash hash)
         {
+            if (hash != null &&
+                !string.IsNullOrEmpty(hash.Key))
+            {
+                hashService.UpdateHash(hash);
+            }
+
             return Json("");
         }
     }

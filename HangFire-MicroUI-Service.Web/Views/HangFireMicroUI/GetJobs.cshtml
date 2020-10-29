@@ -1,68 +1,54 @@
 ﻿@using Newtonsoft.Json;
 @model HangFire_MicroUI_Service.Web.ViewModels.JobListViewModel;
 
-<script src="~/lib/angularJS/angular.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
 <script>
-    var hashApp = angular.module('hashApp', []);
-    hashApp.controller("hangFireMicroUI", function ($scope, $http) {
-        $scope.ButtonClick = function () {
-            var hash = {
-                Key: 'recurring - job: Debug.WriteLine',
-                Value: '* * * * *'
-            };
-
-            console.log(hash);
-
-            var post = $http({
-                method: "POST",
-                url: "/HangFireMicroUI/UpdateJobDetails",
-                dataType: 'json',
-                data: { hash: hash },
-                headers: { "Content-Type": "application/json" }
-            });
-            //post.success(function (data, status) {
-            //    alert('Job data saved successfully.');
-            //});
-
-            //post.error(function (data, status) {
-            //    alert('Error occured.');
-            //});
-
-        };
+    $(document).on('click', '#btnUpdateHash', function () {
+        var token = $('input[name="__RequestVerificationToken"]').val();
+        var hash = {
+            "Key": $('.jobId').val(),
+            "Value": $('#cron').val(),
+        }
+        debugger;
+        $.ajax({
+            url: 'https://localhost:44352/HangFireMicroUI/UpdateJobDetails',
+            type: 'GET',
+            dataType: 'json',
+            ContentType: "application/json",
+            data: { 'hash': hash, '__RequestVerificationToken': token },
+            success: function (response) {
+                alert('Updated');
+            }
+        });
     });
 </script>
 
-<div ng-app="hashApp">
-    <div ng-controller="hangFireMicroUI" class="container">
-        <div class="row">
-            <div class="col-4">
-                <label>
-                    Job Name
-                </label>
-            </div>
-            <div class="col-8">
-                @*<input type="hidden" id="hashData" value="@JsonConvert.SerializeObject(Model.Jobs)" />
-                @Html.DropDownListFor(Model => Model.JobId, new SelectList(Model.Jobs.Select(k => k.Key).Distinct().ToList()))*@
-                <select id="JobId" ng-model="Key">
-                    <option value="male">recurring-job:Debug.WriteLine</option>
-                    <option value="female">recurring-job:HomeController.CallJobMethod</option>
-                </select>
-            </div>
+@Html.AntiForgeryToken()
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <label>
+                Job Name
+            </label>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <label>
-                    Cron
-                </label>
-            </div>
-            <div class="col-8">
-                <input type="text" id="cron" ng-model="Value" />
-            </div>
+        <div class="col-8">
+            <input type="hidden" id="hashData" value="@JsonConvert.SerializeObject(Model.Jobs)" />
+            @Html.DropDownListFor(Model => Model.JobId, new SelectList(Model.Jobs.Select(k => k.Key).Distinct().ToList()), "Please select", new { @class = "form-control jobId " })
         </div>
-        <div class="row">
-            <div class="col-4">
-                <input type="button" value="Submit" ng-click="ButtonClick()" />
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label>
+                Cron
+            </label>
+        </div>
+        <div class="col-8">
+            <input type="text" id="cron" class="form-control"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <input type="button" value="Submit" id="btnUpdateHash" />
         </div>
     </div>
 </div>

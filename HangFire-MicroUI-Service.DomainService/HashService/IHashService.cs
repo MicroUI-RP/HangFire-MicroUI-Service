@@ -8,5 +8,7 @@
     public interface IHashService 
     {
         List<Hash> GetAllJobs();
+
+        void UpdateHash(Hash hash);
     }
 }

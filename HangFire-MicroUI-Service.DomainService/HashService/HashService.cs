@@ -43,6 +43,23 @@
             return jobs;
         }
 
+        public void UpdateHash(Dm.Hash hash)
+        {
+            if (hash != null)
+            {
+                var originalHash = hangFirePoCContext.Hash.Where(k => k.Key == hash.Key &&
+                                                                      k.Field=="Cron")
+                                                          .FirstOrDefault();
+
+                if (originalHash != null)
+                {
+                    originalHash.Value = hash.Value;
+
+                    hangFirePoCContext.SaveChanges();
+                }
+            }
+        }
+
         #endregion Public Methods
     }
 }
