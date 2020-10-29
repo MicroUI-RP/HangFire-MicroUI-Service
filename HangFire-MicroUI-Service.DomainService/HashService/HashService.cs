@@ -34,8 +34,10 @@
                    .Select(k=> new Dm.Hash
                    {
                         Key = k.Key,
+                        Field = k.Field,
+                        Value = k.Value,
+                        ExpireAt = k.ExpireAt
                    })
-                   .Distinct()
                    .ToList();
 
             return jobs;

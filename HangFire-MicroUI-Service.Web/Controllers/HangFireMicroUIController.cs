@@ -9,20 +9,25 @@
     using Microsoft.Extensions.Logging;
     using HangFire_MicroUI_Service.Web.Models;
     using HangFire_MicroUI_Service.DomainService.HashService;
+    using HangFire_MicroUI_Service.Web.ViewModels;
 
-    public class HomeController : Controller
+    public class HangFireMicroUIController : Controller
     {
         private readonly IHashService hashService;
 
-        public HomeController(IHashService hashService)
+        public HangFireMicroUIController(IHashService hashService)
         {
             this.hashService = hashService;
         }
 
         public IActionResult GetJobs()
         {
-            var jobs = hashService.GetAllJobs();
-            return View();
+            JobListViewModel jobListViewModel = new JobListViewModel
+            {
+                Jobs = hashService.GetAllJobs()
+            };
+
+            return PartialView(jobListViewModel);
         }
 
     }

@@ -13,4 +13,8 @@
     <ProjectReference Include="..\HangFire-MicroUI-Service.DomainService\HangFire-MicroUI-Service.DomainService.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\js\app\" />
+  </ItemGroup>
+
 </Project>
