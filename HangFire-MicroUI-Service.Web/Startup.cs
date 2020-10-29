@@ -11,6 +11,7 @@ namespace HangFire_MicroUI_Service.Web
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 
     public class Startup
     {
@@ -24,7 +25,7 @@ namespace HangFire_MicroUI_Service.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddNewtonsoftJson();
             services.AddScoped<IHashService, HashService>();
         }
 

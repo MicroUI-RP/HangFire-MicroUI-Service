@@ -11,5 +11,7 @@
         public List<Hash> Jobs { get; set; }
 
         public string JobId { get; set; }
+
+        public string Cron { get; set; }
     }
 }

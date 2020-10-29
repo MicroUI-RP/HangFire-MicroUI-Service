@@ -10,6 +10,7 @@
     using HangFire_MicroUI_Service.Web.Models;
     using HangFire_MicroUI_Service.DomainService.HashService;
     using HangFire_MicroUI_Service.Web.ViewModels;
+    using HangFire_MicroUI_Service.Model.Models;
 
     public class HangFireMicroUIController : Controller
     {
@@ -30,5 +31,10 @@
             return PartialView(jobListViewModel);
         }
 
+        [HttpPost]
+        public JsonResult UpdateJobDetails([FromBody]Hash hash)
+        {
+            return Json("");
+        }
     }
 }

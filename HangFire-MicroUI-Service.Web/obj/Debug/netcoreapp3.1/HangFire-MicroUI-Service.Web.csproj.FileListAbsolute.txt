@@ -148,6 +148,10 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\Ha
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\obj\Debug\netcoreapp3.1\Razor\Views\HangFireMicroUI\GetJobs.cshtml.g.cs
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.Web.csproj.CoreCompileInputs.cache
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\obj\Debug\netcoreapp3.1\HangFire-MicroUI-Service.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\HangFire-MicroUI-Service\HangFire-MicroUI-Service.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetJobs.cshtml.g.cs
