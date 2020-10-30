@@ -1,13 +1,7 @@
 ﻿namespace HangFire_MicroUI_Service.Web.Controllers
 {
     using System;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.Linq;
-    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
-    using Microsoft.Extensions.Logging;
-    using HangFire_MicroUI_Service.Web.Models;
     using HangFire_MicroUI_Service.DomainService.HashService;
     using HangFire_MicroUI_Service.Web.ViewModels;
     using HangFire_MicroUI_Service.Model.Models;
@@ -38,13 +32,22 @@
         [EnableCors("_myAllowSpecificOrigins")]
         public JsonResult UpdateJobDetails(Hash hash)
         {
+            var result = new { error = false, msg = "Success" };
+
             if (hash != null &&
                 !string.IsNullOrEmpty(hash.Key))
             {
-                hashService.UpdateHash(hash);
+                try
+                {
+                    hashService.UpdateHash(hash);
+                }
+                catch (Exception e)
+                {
+                    result = new { error = true, msg = e.Message };
+                }
             }
 
-            return Json("");
+            return Json(result);
         }
     }
 }

@@ -1,15 +1,25 @@
 ﻿@using Newtonsoft.Json;
 @model HangFire_MicroUI_Service.Web.ViewModels.JobListViewModel;
 
-<script src="~/lib/jquery/dist/jquery.js"></script>
+@*<script src="~/lib/jquery/dist/jquery.js"></script>*@
 <script>
+    $(document).on('change', '.jobId', function () {
+        if ($('.jobId').val() != '') {
+            var originalData = JSON.parse($('#hashData').val());
+            $('#cron').val(originalData.find(x => x.Key == $('.jobId').val() && x.Field == 'Cron').Value);
+        }
+        else {
+            $('#cron').val('');
+        }
+    });
+
     $(document).on('click', '#btnUpdateHash', function () {
         var token = $('input[name="__RequestVerificationToken"]').val();
         var hash = {
             "Key": $('.jobId').val(),
             "Value": $('#cron').val(),
         }
-        debugger;
+
         $.ajax({
             url: 'https://localhost:44352/HangFireMicroUI/UpdateJobDetails',
             type: 'POST',
@@ -17,7 +27,13 @@
             ContentType: "application/json",
             data: { 'hash': hash, '__RequestVerificationToken': token },
             success: function (response) {
-                alert('Updated');
+                if (!response.error) {
+                    alert(response.msg);
+                    window.location.reload();
+                }
+                else {
+                    alert(response.msg);
+                }
             }
         });
     });
