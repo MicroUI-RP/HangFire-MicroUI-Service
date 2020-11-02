@@ -243,6 +243,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.17, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.1.9, )"

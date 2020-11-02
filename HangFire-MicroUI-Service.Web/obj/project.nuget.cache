@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4jtW4eb406604tWqb2+1xDdpmrIDQfcOAxDfa+KjtDKVNRCdalCrscKGRWOvx42Mm7ZIHae0Pb3ywSx0Z/8vng==",
+  "dgSpecHash": "OjasS18GZRVjfHLaPyfDxQX7gWsGjb0/md//2Z3JWhQx6k6Z4CQj1182FPE2lOZ7AqaKOTs6z3a7VNgqEAz+aQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\HangFire-MicroUI-Service\\HangFire-MicroUI-Service.Web\\HangFire-MicroUI-Service.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ravan\\.nuget\\packages\\hangfire.aspnetcore\\1.7.17\\hangfire.aspnetcore.1.7.17.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\hangfire.core\\1.7.17\\hangfire.core.1.7.17.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\hangfire.sqlserver\\1.7.17\\hangfire.sqlserver.1.7.17.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
@@ -97,6 +100,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.composition.typedparts\\1.0.31\\system.composition.typedparts.1.0.31.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\system.data.sqlclient\\4.4.0\\system.data.sqlclient.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
