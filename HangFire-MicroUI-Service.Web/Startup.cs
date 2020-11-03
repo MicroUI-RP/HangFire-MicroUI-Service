@@ -15,6 +15,7 @@ namespace HangFire_MicroUI_Service.Web
     using Hangfire;
     using HangFire_MicroUI_Service.Web.Models;
     using Hangfire.SqlServer;
+    using System.Diagnostics;
 
     public class Startup
     {
@@ -109,13 +110,13 @@ namespace HangFire_MicroUI_Service.Web
                 AppPath = "https://localhost:44310/"
             });
 
-            backgroundJobs.Enqueue(() => Console.WriteLine("Hello world from Hangfire!"));
+            //backgroundJobs.Enqueue(() => Console.WriteLine("Hello world from Hangfire!"));
             //RecurringJob.RemoveIfExists("aefc3420-0078-441d-b58b-5d9ca38d55b0");
-            RecurringJob.AddOrUpdate("aefc3420-0078-441d-b58b-5d9ca38d55b0",
-                                     () => Console.WriteLine("This is a recuurring job"),
+            RecurringJob.AddOrUpdate("Job 1",
+                                     () => Debug.WriteLine("From Job 1"),
                                      "*/1 * * * *");
 
-            RecurringJob.RemoveIfExists("b045ef80-bbe8-4e3e-ae66-e96bbbe38c18");
+            //RecurringJob.RemoveIfExists("b045ef80-bbe8-4e3e-ae66-e96bbbe38c18");
 
             // RecurringJob.AddOrUpdate<IPrintJob>(
             //     "b045ef80-bbe8-4e3e-ae66-e96bbbe38c18",
@@ -123,12 +124,11 @@ namespace HangFire_MicroUI_Service.Web
             //     "*/1 * * * *",null,"alpha"
             //     );
 
-            recurringJobs.RemoveIfExists("Run every min");
+            //recurringJobs.RemoveIfExists("Job 2");
 
-            recurringJobs.AddOrUpdate("Run every min",
+            recurringJobs.AddOrUpdate("Job 2",
                                       () => serviceProvider.GetRequiredService<IPrintJob>().Print(),
                                       "*/1 * * * *", null, "alpha");
-
 
             app.UseEndpoints(endpoints =>
             {

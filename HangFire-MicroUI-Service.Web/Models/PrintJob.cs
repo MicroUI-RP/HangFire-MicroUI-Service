@@ -1,6 +1,7 @@
 ﻿namespace HangFire_MicroUI_Service.Web.Models
 {
     using System;
+    using System.Diagnostics;
     using Hangfire;
 
     [LogEverything]
@@ -10,7 +11,7 @@
         [LogEverything]
         public void Print()
         {
-            Console.WriteLine($"Hanfire recurring job!");
+            Debug.WriteLine($"Job 2");
         }
     }
 }
